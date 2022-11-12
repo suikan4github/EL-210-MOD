@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 9-ST-20)(type Legacy)(uri ${KIPRJMOD}/lib/9-ST-20/9-ST-20.lib)(options "")(descr ""))
+  (lib (name EL-210-KEY)(type Legacy)(uri ${KIPRJMOD}/lib/EL-210-KEY/EL-210-KEY.lib)(options "")(descr ""))
+)
