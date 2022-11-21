@@ -21,18 +21,18 @@
     (symbol "STM32G0B1KET6_0_1"
       (polyline
         (pts
-          (xy 7.62 7.62)
-          (xy 45.72 7.62)
+          (xy 7.62 -45.72)
+          (xy 45.72 -45.72)
         )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 45.72 -45.72)
-          (xy 7.62 -45.72)
+          (xy 45.72 7.62)
+          (xy 7.62 7.62)
         )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
       )
     )
