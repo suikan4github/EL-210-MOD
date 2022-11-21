@@ -18,27 +18,17 @@
     (property "ki_fp_filters" "LQFP_0B1KET6_STM LQFP_0B1KET6_STM-M LQFP_0B1KET6_STM-L" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "STM32G0B1KET6_0_1"
-      (polyline
-        (pts
-          (xy 7.62 -45.72)
-          (xy 45.72 -45.72)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 45.72 7.62)
-          (xy 7.62 7.62)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
     (symbol "STM32G0B1KET6_1_1"
       (polyline
         (pts
+          (xy 7.62 -45.72)
+          (xy 45.72 -45.72)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy 7.62 7.62)
           (xy 7.62 -45.72)
         )
@@ -51,6 +41,14 @@
           (xy 45.72 7.62)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 45.72 7.62)
+          (xy 7.62 7.62)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (pin bidirectional line (at 53.34 -2.54 180) (length 7.62)

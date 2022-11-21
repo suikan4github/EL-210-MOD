@@ -1048,6 +1048,14 @@
       (symbol "STM32G0B1KET6_1_1"
         (polyline
           (pts
+            (xy 7.62 -45.72)
+            (xy 45.72 -45.72)
+          )
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
             (xy 7.62 7.62)
             (xy 7.62 -45.72)
           )
@@ -1060,6 +1068,14 @@
             (xy 45.72 7.62)
           )
           (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 45.72 7.62)
+            (xy 7.62 7.62)
+          )
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (pin bidirectional line (at 53.34 -2.54 180) (length 7.62)
@@ -1245,27 +1261,17 @@
       (property "ki_fp_filters" "LQFP_0B1KET6_STM LQFP_0B1KET6_STM-M LQFP_0B1KET6_STM-L" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "STM32G0B1KET6_1_0_1"
-        (polyline
-          (pts
-            (xy 7.62 -45.72)
-            (xy 45.72 -45.72)
-          )
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 45.72 7.62)
-            (xy 7.62 7.62)
-          )
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
       (symbol "STM32G0B1KET6_1_1_1"
         (polyline
           (pts
+            (xy 7.62 -45.72)
+            (xy 45.72 -45.72)
+          )
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
             (xy 7.62 7.62)
             (xy 7.62 -45.72)
           )
@@ -1278,6 +1284,14 @@
             (xy 45.72 7.62)
           )
           (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 45.72 7.62)
+            (xy 7.62 7.62)
+          )
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (pin bidirectional line (at 53.34 -2.54 180) (length 7.62)
@@ -1721,7 +1735,6 @@
       )
     )
   )
-
 
   (junction (at 144.78 171.45) (diameter 0) (color 0 0 0 0)
     (uuid 0e3f5c97-e025-4fe3-b69b-a689860976a9)
@@ -3113,7 +3126,7 @@
     (property "Value" "MAX6934AQH+D" (id 1) (at 210.82 29.3258 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_LCC:PLCC-44" (id 2) (at 210.82 29.464 0)
+    (property "Footprint" "plcc44_hs:PLCC44_handsoldering" (id 2) (at 210.82 29.464 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 187.96 35.56 0)
@@ -4153,7 +4166,7 @@
       (reference "U2") (unit 2) (value "STM32G0B1KET6") (footprint "Package_QFP:LQFP-32_7x7mm_P0.8mm")
     )
     (path "/4099be24-4041-44aa-b3ae-1d400eb2ae96"
-      (reference "U3") (unit 1) (value "MAX6934AQH+D") (footprint "Package_LCC:PLCC-44")
+      (reference "U3") (unit 1) (value "MAX6934AQH+D") (footprint "plcc44_hs:PLCC44_handsoldering")
     )
     (path "/4aae5fbc-1e32-4cd8-9d8d-92887dc880d2"
       (reference "U4") (unit 1) (value "TPS613221ADBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
