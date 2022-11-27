@@ -1,0 +1,85 @@
+
+(rules PCB EL-210-MOD
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 12)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    +3V3 +BATT GND "unconnected-(P1-Pad12)" /H1 "/SEG_A" "Net-(U3-Pad42)" "Net-(U3-Pad41)"
+    "Net-(U3-Pad40)" "Net-(U3-Pad39)" "Net-(U3-Pad38)" "Net-(U3-Pad37)" "Net-(U3-Pad36)" "Net-(U3-Pad35)" "Net-(U3-Pad34)" "Net-(U3-Pad33)"
+    "Net-(U3-Pad32)" "Net-(U3-Pad31)" "Net-(U3-Pad30)" "Net-(U3-Pad27)" "Net-(U3-Pad26)" "Net-(U3-Pad25)" /H2 +24V
+    "unconnected-(U3-Pad2)" "unconnected-(U3-Pad3)" "unconnected-(U3-Pad4)" "unconnected-(U3-Pad5)" "unconnected-(U3-Pad6)" "unconnected-(U3-Pad7)" "unconnected-(U3-Pad8)" "unconnected-(U3-Pad9)"
+    "unconnected-(U3-Pad10)" "unconnected-(U3-Pad11)" "unconnected-(U3-Pad12)" "unconnected-(U3-Pad13)" "unconnected-(U3-Pad14)" "unconnected-(U3-Pad15)" "unconnected-(U3-Pad16)" "unconnected-(U3-Pad17)"
+    "-2V5" "unconnected-(U3-Pad19)" /BLANK "/SPI1_SCK" /LOAD "unconnected-(U3-Pad28)" "unconnected-(U3-Pad29)" "/SPI1_MOSI"
+    "Net-(L1-Pad1)" "unconnected-(U2-Pad1)" "unconnected-(U2-Pad2)" "unconnected-(U2-Pad3)" /NRST "/TIM1_CH1N" "/TIM1_CH1" /SWDIO
+    /SWCLK "/LPUART2_TX" "unconnected-(U4-Pad3)" "unconnected-(U2-Pad26)" /EN24V "unconnected-(U2-Pad28)" /KEY1 /KEY2
+    /KEY3 /KD8 /KD7 /KD6 /KD5 /KD4 /KD3 /KD2
+    /KD1 /KD0 "unconnected-(U4-Pad5)" "Net-(L2-Pad1)" "Net-(R4-Pad2)" "Net-(C1-Pad1)" "Net-(C1-Pad2)" "/TIM2_CH1"
+    "Net-(R2-Pad2)" "Net-(R3-Pad1)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
