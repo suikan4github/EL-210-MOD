@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 12)
+    (start_pass_no 16)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -52,16 +52,16 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    +3V3 +BATT GND "unconnected-(P1-Pad12)" /H1 "/SEG_A" "Net-(U3-Pad42)" "Net-(U3-Pad41)"
-    "Net-(U3-Pad40)" "Net-(U3-Pad39)" "Net-(U3-Pad38)" "Net-(U3-Pad37)" "Net-(U3-Pad36)" "Net-(U3-Pad35)" "Net-(U3-Pad34)" "Net-(U3-Pad33)"
-    "Net-(U3-Pad32)" "Net-(U3-Pad31)" "Net-(U3-Pad30)" "Net-(U3-Pad27)" "Net-(U3-Pad26)" "Net-(U3-Pad25)" /H2 +24V
+    +3V3 +BATT GND "unconnected-(P1-Pad12)" /H1 "/SEG_A" "Net-(U1-Pad3)" "Net-(U1-Pad4)"
+    "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)"
+    "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad18)" /H2 +24V
     "unconnected-(U3-Pad2)" "unconnected-(U3-Pad3)" "unconnected-(U3-Pad4)" "unconnected-(U3-Pad5)" "unconnected-(U3-Pad6)" "unconnected-(U3-Pad7)" "unconnected-(U3-Pad8)" "unconnected-(U3-Pad9)"
     "unconnected-(U3-Pad10)" "unconnected-(U3-Pad11)" "unconnected-(U3-Pad12)" "unconnected-(U3-Pad13)" "unconnected-(U3-Pad14)" "unconnected-(U3-Pad15)" "unconnected-(U3-Pad16)" "unconnected-(U3-Pad17)"
     "-2V5" "unconnected-(U3-Pad19)" /BLANK "/SPI1_SCK" /LOAD "unconnected-(U3-Pad28)" "unconnected-(U3-Pad29)" "/SPI1_MOSI"
     "Net-(L1-Pad1)" "unconnected-(U2-Pad1)" "unconnected-(U2-Pad2)" "unconnected-(U2-Pad3)" /NRST "/TIM1_CH1N" "/TIM1_CH1" /SWDIO
-    /SWCLK "/LPUART2_TX" "unconnected-(U4-Pad3)" "unconnected-(U2-Pad26)" /EN24V "unconnected-(U2-Pad28)" /KEY1 /KEY2
-    /KEY3 /KD8 /KD7 /KD6 /KD5 /KD4 /KD3 /KD2
-    /KD1 /KD0 "unconnected-(U4-Pad5)" "Net-(L2-Pad1)" "Net-(R4-Pad2)" "Net-(C1-Pad1)" "Net-(C1-Pad2)" "/TIM2_CH1"
+    /SWCLK "/LPUART2_TX" "unconnected-(U4-Pad3)" "unconnected-(U2-Pad26)" /EN24V "unconnected-(U2-Pad28)" /KC0 /KC1
+    /KC2 /KR0 /KR1 /KR2 /KR3 /KR4 /KR5 /KR6
+    /KR7 /KR8 "unconnected-(U4-Pad5)" "Net-(L2-Pad1)" "Net-(R4-Pad2)" "Net-(C1-Pad1)" "Net-(C1-Pad2)" "/TIM1_CH2"
     "Net-(R2-Pad2)" "Net-(R3-Pad1)"
     (clearance_class default)
     (via_rule default)
