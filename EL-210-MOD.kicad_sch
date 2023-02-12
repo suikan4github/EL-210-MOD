@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Akashi-10")
-    (date "2022-06-07")
-    (rev "1.0")
+    (title "EL-210-MOD")
+    (date "2023-02-12")
+    (rev "1.0.2")
   )
 
   (lib_symbols
@@ -2915,7 +2915,7 @@
     (property "Value" "10u" (id 1) (at 76.581 149.4032 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_4x3.9" (id 2) (at 74.6252 152.4 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x3.9" (id 2) (at 74.6252 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "UZG1H100MCL1GB" (id 3) (at 73.66 148.59 0)
@@ -3643,7 +3643,7 @@
     (property "Value" "22u" (id 1) (at 236.601 139.2432 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x3.9" (id 2) (at 234.6452 142.24 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_4x3.9" (id 2) (at 234.6452 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "UZG0J220MCL1GB" (id 3) (at 233.68 138.43 0)
@@ -4003,7 +4003,7 @@
       (reference "C5") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/c63c3bc3-bbbc-455a-8ec9-31c56f0d841f"
-      (reference "C6") (unit 1) (value "22u") (footprint "Capacitor_SMD:CP_Elec_6.3x3.9")
+      (reference "C6") (unit 1) (value "22u") (footprint "Capacitor_SMD:CP_Elec_4x3.9")
     )
     (path "/f5b00abc-a391-4427-9c9b-fa38c85349fd"
       (reference "C7") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -4018,7 +4018,7 @@
       (reference "C10") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/2fdd038b-8927-431e-9c67-f8f1c25fc8d5"
-      (reference "C11") (unit 1) (value "10u") (footprint "Capacitor_SMD:CP_Elec_4x3.9")
+      (reference "C11") (unit 1) (value "10u") (footprint "Capacitor_SMD:CP_Elec_6.3x3.9")
     )
     (path "/9b4341eb-9497-42fa-9e5f-534332830100"
       (reference "D1") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
