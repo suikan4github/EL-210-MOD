@@ -70,4 +70,10 @@ To supply the 24V to VFD, set EN24 signal to "H".
 In the case you order the PCB to a board manufacturer, you must specify the 
 PCB thinness as 1.0mm. The standard 1.3mm is too thick. 
 
+# Known Problems
+The Grid bias is not deep as expected. It is -0.9V while expected -2.5v. 
+It is left beside because it is not problematic. 
+
+
 # Gallery
+![](image/PXL_20230212_044920518.jpg)
