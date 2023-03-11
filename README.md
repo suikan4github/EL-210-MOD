@@ -72,8 +72,10 @@ PCB thinness as 1.0mm. The standard 1.3mm is too thick.
 
 # Known Problems
 The Grid bias is not deep as expected. It is -0.9V while expected -2.5v. 
-It is left beside because it is not problematic. 
+It is left untouched because it is not problematic. 
 
 
 # Gallery
-![](image/PXL_20230212_044920518.jpg)
+![](image/PXL_20230219_063837949.jpg)
+![](image/PXL_20230219_074402177.jpg)
+![](image/PXL_20230219_075149874.jpg)
