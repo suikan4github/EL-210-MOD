@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "9-ST-20")(type "KiCad")(uri "${KIPRJMOD}/lib/9-ST-20/9-ST-20.kicad_sym")(options "")(descr ""))
+  (lib (name "EL-210-KEY")(type "KiCad")(uri "${KIPRJMOD}/lib/EL-210-KEY/EL-210-KEY.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32G0B1KET6")(type "KiCad")(uri "${KIPRJMOD}/lib/STM32G0B1KET6.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX6934A")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX6934AQH.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX4719E")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX4719EUB.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV61046ADBV")(type "KiCad")(uri "${KIPRJMOD}/lib/TLV61046ADBVT.kicad_sym")(options "")(descr ""))
+  (lib (name "LQH5BPN100M38L")(type "KiCad")(uri "${KIPRJMOD}/lib/LQH5BPN100M38L.kicad_sym")(options "")(descr ""))
+)

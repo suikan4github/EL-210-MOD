@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "9-ST-20")(type "KiCad")(uri "${KIPRJMOD}/lib/9-ST-20/9-ST-20.pretty")(options "")(descr ""))
+  (lib (name "EL-210-KEY")(type "KiCad")(uri "${KIPRJMOD}/lib/EL-210-KEY/EL-210-KEY.pretty")(options "")(descr ""))
+  (lib (name "hole")(type "KiCad")(uri "${KIPRJMOD}/hole/hole.pretty")(options "")(descr ""))
+  (lib (name "project_lib")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
+  (lib (name "plcc44_hs")(type "KiCad")(uri "${KIPRJMOD}/lib/plcc44_hs.pretty")(options "")(descr ""))
+)
