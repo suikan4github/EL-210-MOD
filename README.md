@@ -19,7 +19,7 @@ user must follow the procedure :
 # Circuit Design
 
 You can found additional design resources : 
-- [Schematic diagram](doc/EL-210-MOD).
+- [Schematic diagram](doc/EL-210-MOD.pdf).
 - [Parts list](doc/partslist.csv).
 
 ## VFD specification
